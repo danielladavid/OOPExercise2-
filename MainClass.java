@@ -8,9 +8,15 @@ public class MainClass{ // main class
 	   archosaurs=dinosaur;
 	   // calling the accessors from the super class object 
 	   System.out.println(archosaurs.Move() + " " + "My dino " + archosaurs.getName());
-	   
-	   archosaurs=pterosaur;
+	   System.out.println("Dinosaur Age= " + dinosaur.age);
+	   System.out.println("Dinosaur Classification= " + dinosaur.getClassification());
+	  
+System.out.println(" ");
+
+           archosaurs=pterosaur;
 	   System.out.println(archosaurs.Move() + " " + "My ptero " + archosaurs.getName());
-	   }
+	   System.out.println("Pterosaur Age= " + pterosaur.age);
+	   System.out.println("Pterosaur Body Structure= " + pterosaur.getBodyStructure());
+  }
    }
    
